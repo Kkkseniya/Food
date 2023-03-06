@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food by BCG</title>
+  <link rel="icon" href="img/icon-eco-food.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/simplebar.css">
+
+  <!-- <script src="js/index.js" type="module"></script> -->
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="header__top">
+      <div class="container top-container">
+        <div class="media-block">
+          <a href="https://www.facebook.com">
+            <img src="img/facebook-icon.svg" alt="facebook-icon" class="media-icon">
+          </a>
+          <a href="https://www.instagram.com">
+            <img src="img/instagram-icon.svg" alt="instagram-icon" class="media-icon">
+          </a>
+          <a href="https://twitter.com">
+            <img src="img/twitter-icon.svg" alt="twitter-icon" class="media-icon">
+          </a>
+        </div>
+
+        <div class="lang-block">
+          <span class="ru-lang">Ru</span>
+          <span class="en-lang">EN</span>
+        </div>
+      </div>
+    </div>
+    <!-- /.header__top -->
+
+    <div class="container header__bottom">
+      <a href="./index.html" class="header__logo-link">
+        <img src="img/logo.png" alt="Logo" class="header__logo">
+      </a>
+
+      <ul class="header__menu menu">
+        <li class="menu__item">Главная</li>
+        <li class="menu__item">Товары</li>
+        <li class="menu__item">Q&A</li>
+        <li class="menu__item">Статьи</li>
+        <li class="menu__item">О нас</li>
+        <li class="menu__item">Оплата и доставка</li>
+        <li class="menu__item">Контакты</li>
+      </ul>
+
+      <a href="tel:+79261716766" class="header__number">+7 926 171 67 66</a>
+
+      <div class="header__icon-block">
+        <div class="notification-block">
+          <span class="notification">5</span>
+          <svg class="heart-icon" width="24" height="24">
+            <use xlink:href="img/icons.svg#heart-icon"></use>
+          </svg>
+        </div>
+
+        <div class="notification-block notif-cart">
+          <span class="notification">8</span>
+          <svg class="cart-icon" width="24" height="24">
+            <use xlink:href="img/icons.svg#cart-icon"></use>
+          </svg>
+
+          <!-- cart-details were here -->
+        </div>
+      </div>
+      <!-- /.header__bottom -->
+    </div>
+
+    <div class="cart-details">
+      <div class="cart-wrapper">
+        <div class="cart-details__header card-top">
+          <div class="card-top__wrapper">
+            <img src="img/cart-icon-black.svg" alt="Cart icon black">
+            <h1 class="card-top__title">Корзина</h1>
+          </div>
+          <img src="img/close.svg" alt="Close button" class="card-top__close">
+        </div>
+        <!-- /.card-top -->
+        <div class="cart-details__line"></div>
+      </div>
+
+      <div class="cart-details__list cart-list">
+
+        <div class="cart-list__item cart-item">
+          <div class="cart-container">
+            <div class="img-text-wrapper">
+              <div class="cart-item__image"><img src="img/cart-details-img.jpg" alt="selected product image">
+              </div>
+              <div class="cart-item__info">
+                <div class="cart-text-wrapper">
+                  <h2 class="cart-item__title">Detox набор</h2>
+                  <h3 class="cart-item__text">Sorbent + Antifungal</h3>
+                </div>
+                <div class="cart-item__counter">
+                  <button class="counter-button counter-minus"><img src="img/minus.svg" alt="minus"></button>
+                  <span class="counter">1</span>
+                  <button class="counter-button counter-plus"><img src="img/plus.svg" alt="plus"></button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item__block">
+              <img src="img/wastebasket.svg" alt="wastebasket icon" class="delete-btn">
+              <span class="cart-item__price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-list__item cart-item">
+          <div class="cart-container">
+            <div class="img-text-wrapper">
+              <div class="cart-item__image"><img src="img/cart-details-img.jpg" alt="selected product image">
+              </div>
+              <div class="cart-item__info">
+                <div class="cart-text-wrapper">
+                  <h2 class="cart-item__title">Вечерний чай Aksam detox</h2>
+                  <h3 class="cart-item__text">Сбор на основе сенны, с мягким слабительным действием,
+                    направленным
+                    на
+                    предотвращение вздутия и запоров.</h3>
+                </div>
+                <div class="cart-item__counter">
+                  <button class="counter-button counter-minus"><img src="img/minus.svg" alt="minus"></button>
+                  <span class="counter">1</span>
+                  <button class="counter-button counter-plus"><img src="img/plus.svg" alt="plus"></button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item__block">
+              <img src="img/wastebasket.svg" alt="wastebasket icon" class="delete-btn">
+              <span class="cart-item__price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-list__item cart-item">
+          <div class="cart-container">
+            <div class="img-text-wrapper">
+              <div class="cart-item__image"><img src="img/cart-details-img.jpg" alt="selected product image">
+              </div>
+              <div class="cart-item__info">
+                <div class="cart-text-wrapper">
+                  <h2 class="cart-item__title">Detox набор</h2>
+                  <h3 class="cart-item__text">Sorbent + Antifungal</h3>
+                </div>
+                <div class="cart-item__counter">
+                  <button class="counter-button counter-minus"><img src="img/minus.svg" alt="minus"></button>
+                  <span class="counter">1</span>
+                  <button class="counter-button counter-plus"><img src="img/plus.svg" alt="plus"></button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item__block">
+              <img src="img/wastebasket.svg" alt="wastebasket icon" class="delete-btn">
+              <span class="cart-item__price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-list__item cart-item">
+          <div class="cart-container">
+            <div class="img-text-wrapper">
+              <div class="cart-item__image"><img src="img/cart-details-img.jpg" alt="selected product image">
+              </div>
+              <div class="cart-item__info">
+                <div class="cart-text-wrapper">
+                  <h2 class="cart-item__title">Detox набор</h2>
+                  <h3 class="cart-item__text">Sorbent + Antifungal</h3>
+                </div>
+                <div class="cart-item__counter">
+                  <button class="counter-button counter-minus"><img src="img/minus.svg" alt="minus"></button>
+                  <span class="counter">1</span>
+                  <button class="counter-button counter-plus"><img src="img/plus.svg" alt="plus"></button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item__block">
+              <img src="img/wastebasket.svg" alt="wastebasket icon" class="delete-btn">
+              <span class="cart-item__price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-list__item cart-item">
+          <div class="cart-container">
+            <div class="img-text-wrapper">
+              <div class="cart-item__image"><img src="img/cart-details-img.jpg" alt="selected product image">
+              </div>
+              <div class="cart-item__info">
+                <div class="cart-text-wrapper">
+                  <h2 class="cart-item__title">Detox набор</h2>
+                  <h3 class="cart-item__text">Sorbent + Antifungal</h3>
+                </div>
+                <div class="cart-item__counter">
+                  <button class="counter-button counter-minus"><img src="img/minus.svg" alt="minus"></button>
+                  <span class="counter">1</span>
+                  <button class="counter-button counter-plus"><img src="img/plus.svg" alt="plus"></button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item__block">
+              <img src="img/wastebasket.svg" alt="wastebasket icon" class="delete-btn">
+              <span class="cart-item__price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.card-details__list -->
+
+      <div class="cart-wrapper cart-bottom">
+        <div class="cart-bottom__wrapper">
+          <span class="cart-bottom__sum">Сумма</span>
+          <span class="cart-bottom__sum-count">1580₽</span>
+        </div>
+        <button class="cart-bottom__btn order-btn">Оформить заказ</button>
+        <button class="cart-bottom__btn cart-btn">Корзина</button>
+        <div class="cart-bottom__note-wrapper">
+          <img src="img/box-icon.svg" alt="box icon">
+          <p class="cart-note">Добавьте товаров еще на <b>420₽</b> и Вам станет доступна <b>бесплатная
+              доставка</b></p>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.cart-details -->
+  </header>
+
+  <section class="top-banner">
+    <div class="container">
+      <div class="top-banner__container">
+        <div class="top-banner__info banner-info">
+          <div class="banner-info__wrapper">
+            <div class="banner-info__days">40 дней</div>
+            <div class="banner-info__line"></div>
+          </div>
+          <h2 class="banner-info__subtitle subtitle">Полный детокс курс</h2>
+          <h1 class="banner-info__title main-title">TREASURE</h1>
+          <p class="banner-info__descrip description">Для комплексного улучшения физического и ментального здоровья,
+            прививающий
+            правильные привычки.</p>
+          <a href="#" class="banner-info__btn">Каталог товаров</a>
+        </div>
+        <div class="top-banner__image"></div>
+      </div>
+    </div>
+
+  </section>
+  <!-- /.top-banner -->
+
+  <section class="products">
+    <div class="container">
+      <div class="products-title-wrapper">
+        <h1 class="products__title title">Популярные товары</h1>
+
+        <ul class="products__filter-list">
+          <li class="filter-item filter-item_active">Популярные товары</li>
+          <li class="filter-item">Акции</li>
+          <li class="filter-item">Просмотренное</li>
+        </ul>
+      </div>
+      <div class="products__card-block">
+
+        <div class="card">
+          <a href="./product-list.html" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <span class="weight">35 грамм</span>
+          <div class="card-main-wrapper">
+            <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+            <div class="card-descrip-wrapper">
+              <span class="card__descrip">Sorbent + Antifungal</span>
+              <svg class="product-arrow" width="21" height="16">
+                <use xlink:href="img/icons.svg#product-arrow"></use>
+              </svg>
+              <span class="card__price price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <a href="#" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <div>
+            <div>
+              <span class="weight">35 грамм</span>
+              <div class="card-main-wrapper">
+                <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+                <div class="card-descrip-wrapper">
+                  <span class="card__descrip">Sorbent + Antifungal</span>
+                  <svg class="product-arrow" width="21" height="16">
+                    <use xlink:href="img/icons.svg#product-arrow"></use>
+                  </svg>
+                  <span class="card__price price">790₽</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <a href="#" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <div>
+            <span class="weight">35 грамм</span>
+            <div class="card-main-wrapper">
+              <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+              <div class="card-descrip-wrapper">
+                <span class="card__descrip">Sorbent + Antifungal</span>
+                <svg class="product-arrow" width="21" height="16">
+                  <use xlink:href="img/icons.svg#product-arrow"></use>
+                </svg>
+                <span class="card__price price">790₽</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <a href="#" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <div>
+            <span class="weight">35 грамм</span>
+            <div class="card-main-wrapper">
+              <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+              <div class="card-descrip-wrapper">
+                <span class="card__descrip">Sorbent + Antifungal</span>
+                <svg class="product-arrow" width="21" height="16">
+                  <use xlink:href="img/icons.svg#product-arrow"></use>
+                </svg>
+                <span class="card__price price">790₽</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <a href="#" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <div>
+            <span class="weight">35 грамм</span>
+            <div class="card-main-wrapper">
+              <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+              <div class="card-descrip-wrapper">
+                <span class="card__descrip">Sorbent + Antifungal</span>
+                <svg class="product-arrow" width="21" height="16">
+                  <use xlink:href="img/icons.svg#product-arrow"></use>
+                </svg>
+                <span class="card__price price">790₽</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <a href="#" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <div>
+            <span class="weight">35 грамм</span>
+            <div class="card-main-wrapper">
+              <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+              <div class="card-descrip-wrapper">
+                <span class="card__descrip">Sorbent + Antifungal</span>
+                <svg class="product-arrow" width="21" height="16">
+                  <use xlink:href="img/icons.svg#product-arrow"></use>
+                </svg>
+                <span class="card__price price">790₽</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.products__card-block -->
+
+      <div class="link-wrapper">
+        <div class="products__line"></div>
+        <a href="#" class="products__all">Все товары</a>
+        <div class="products__line"></div>
+      </div>
+    </div>
+  </section>
+  <!-- /.products -->
+
+  <section class="sets">
+    <div class="container">
+      <div class="sets-title-wrapper">
+        <div class="sets__title title">Наши наборы</div>
+
+        <ul class="sets__filter-list">
+          <li class="sets__filter-item sets__filter-item_active">TREASURE</li>
+          <li class="sets__filter-item">Новый мир</li>
+          <li class="sets__filter-item">Здоровье тела</li>
+          <li class="sets__filter-item">Detox</li>
+        </ul>
+
+        <button class="sets__arrow sets__arrow_prev"></button>
+        <button class="sets__arrow sets__arrow_next"></button>
+      </div>
+    </div>
+
+    <div class="sets__line"></div>
+
+    <div class="sets__swiper-wrapper">
+      <div class="sets__slider swiper">
+        <div class="swiper-wrapper">
+
+          <div class="sets__item swiper-slide">
+            <div class="sets__image"><img src="img/sets-slider-img-1.png" alt="slider image 1"></div>
+            <div class="sets__descrip-wrapper">
+              <h2 class="sets__subtitle subtitle">Полный детокс курс</h2>
+              <h1 class="sets__title main-title">TREASURE</h1>
+              <p class="sets__descrip description">Для комплексного улучшения физического и ментального здоровья,
+                прививающий правильные привычки.</p>
+              <span class="sets__price price">2790₽</span>
+              <div class="sets__button-wrapper">
+                <a href="#" class="sets__detail">Подробнее</a>
+                <a href="#" class="sets__buy">Купить</a>
+              </div>
+            </div>
+            <div class="sets__bcg-text bcg-text">Treasure</div>
+          </div>
+
+          <div class="sets__item swiper-slide">
+            <div class="sets__image"><img src="img/sets-slider-img-2.png" alt="slider image 2"></div>
+            <div class="sets__descrip-wrapper">
+              <h2 class="sets__subtitle subtitle">Польза овощей</h2>
+              <h1 class="sets__title main-title">Vitamins</h1>
+              <p class="sets__descrip description">Овощи богаты калием, необходимым для нормального кровяного давления,
+                витамины С и А помогают сохранить здоровье глаз, кожи, зубов и десен, противостоять инфекциям.</p>
+              <span class="sets__price price">1500₽</span>
+              <div class="sets__button-wrapper">
+                <a href="#" class="sets__detail">Подробнее</a>
+                <a href="#" class="sets__buy">Купить</a>
+              </div>
+            </div>
+            <div class="sets__bcg-text bcg-text">Vitamins</div>
+          </div>
+
+          <div class="sets__item swiper-slide">
+            <div class="sets__image"><img src="img/sets-slider-img-3.png" alt="slider image 3"></div>
+            <div class="sets__descrip-wrapper">
+              <h2 class="sets__subtitle subtitle">полезные салаты</h2>
+              <h1 class="sets__title main-title">Salads</h1>
+              <p class="sets__descrip description">Салаты для здорового питания и похудения.</p>
+              <span class="sets__price price">1750₽</span>
+              <div class="sets__button-wrapper">
+                <a href="#" class="sets__detail">Подробнее</a>
+                <a href="#" class="sets__buy">Купить</a>
+              </div>
+            </div>
+            <div class="sets__bcg-text bcg-text">Salads</div>
+          </div>
+
+          <div class="sets__item swiper-slide">
+            <div class="sets__image"><img src="img/sets-slider-img-4.png" alt="slider image 4"></div>
+            <div class="sets__descrip-wrapper">
+              <h2 class="sets__subtitle subtitle">Фруктовые смузи</h2>
+              <h1 class="sets__title main-title">Smoothie</h1>
+              <p class="sets__descrip description">Источник клетчатки, витаминов, макро- и микроэлементов.</p>
+              <span class="sets__price price">1900₽</span>
+              <div class="sets__button-wrapper">
+                <a href="#" class="sets__detail">Подробнее</a>
+                <a href="#" class="sets__buy">Купить</a>
+              </div>
+            </div>
+            <div class="sets__bcg-text bcg-text">Smoothie</div>
+          </div>
+
+          <div class="sets__item swiper-slide">
+            <div class="sets__image"><img src="img/sets-slider-img-5.png" alt="slider image 5"></div>
+            <div class="sets__descrip-wrapper">
+              <h2 class="sets__subtitle subtitle">Витаминные смузи</h2>
+              <h1 class="sets__title main-title">Smoothie</h1>
+              <p class="sets__descrip description">Источник клетчатки, витаминов, макро- и микроэлементов.</p>
+              <span class="sets__price price">1900₽</span>
+              <div class="sets__button-wrapper">
+                <a href="#" class="sets__detail">Подробнее</a>
+                <a href="#" class="sets__buy">Купить</a>
+              </div>
+            </div>
+            <div class="sets__bcg-text bcg-text">Smoothie</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- /.sets__swiper-wrapper -->
+  </section>
+  <!-- /.sets -->
+
+  <section class="benefits">
+    <div class="container">
+      <h1 class="benefits__title title">Наши преимущества</h1>
+      <div class="benefits-content-wrapper">
+        <img src="img/benefits-img.png" alt="benefits image" class="benefits__image">
+        <div class="benefits__info">
+
+          <div class="benefits__info-item">
+            <img src="img/benefit-percent.gif" alt="percent gif" class="benefits__anim">
+            <div class="benefits__descrip-wrapper">
+              <h2 class="benefits__text benefits__text_bold">Регулярные акции и распродажи</h2>
+              <p class="benefits__text">Заказывайте регулярно и получайте скидки от нашего магазина БАД-ов 4ood</p>
+            </div>
+          </div>
+
+          <div class="benefits__info-item">
+            <img src="img/benefit-emoji.gif" alt="emoji gif" class="benefits__anim">
+            <div class="benefits__descrip-wrapper">
+              <h2 class="benefits__text benefits__text_bold">Польза для вашего здоровья</h2>
+              <p class="benefits__text">Заказывайте регулярно и получайте скидки от нашего магазина БАД-ов 4ood</p>
+            </div>
+          </div>
+
+          <div class="benefits__info-item">
+            <img src="img/benefit-box.gif" alt="box gif" class="benefits__anim">
+            <div class="benefits__descrip-wrapper">
+              <h2 class="benefits__text benefits__text_bold">Бесплатная доставка</h2>
+              <p class="benefits__text">Бесплатная доставка в нашем магазине на сумму заказа от 2000 рублей</p>
+            </div>
+          </div>
+
+          <div class="benefits__info-item">
+            <img src="img/benefit-certif.gif" alt="certif gif" class="benefits__anim">
+            <div class="benefits__descrip-wrapper">
+              <h2 class="benefits__text benefits__text_bold">Сертификация товаров</h2>
+              <p class="benefits__text">Заказывайте регулярно и получайте скидки от нашего магазина БАД-ов 4ood</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.benefits -->
+
+  <section class="sport">
+    <div class="container">
+      <div class="sport__content-wrapper">
+        <div class="sport__info-wrapper">
+          <h2 class="sport__subtitle subtitle">с нами у тебя есть все, чтобы</h2>
+          <h1 class="sport__title main-title">Жить активно</h1>
+          <div class="sport__description description">Попробуй наши товары для комплексного улучшения физического и
+            ментального здоровья, прививающий правильные привычки.</div>
+          <a href="#" class="sport__link">В каталог</a>
+        </div>
+        <img src="img/sport-image.png" alt="" class="sport__image">
+      </div>
+    </div>
+    <!-- <div class="sport__bcg-text bcg-text">Active</div> -->
+    <img src="img/Active.png" alt="bcg text" class="sport__bcg-text">
+  </section>
+  <!-- /.sport -->
+  <section class="beauty">
+    <img class="beauty__image" src="img/beauty-image.png" alt="product from beauty block">
+    <div class="beauty__content-wrapper">
+
+      <div class="beauty__content">
+        <h2 class="beauty__subtitle subtitle">Всесторонний подход</h2>
+        <h1 class="beauty__title main-title">к красоте</h1>
+        <div class="beauty__description description">Мы заботимся о восприятии нашего продукта и стараемся, чтобы 4ood
+          был
+          не только полезен, но и приятен эстетически.</div>
+        <a href="#" class="beauty__link">В каталог</a>
+        <img class="beauty__bottle-image" src="img/beauty-bottle.png" alt="bottle image">
+
+      </div>
+    </div>
+    <!-- <img class="beauty__bottle-image" src="img/beauty-bottle.png" alt="bottle image"> -->
+    <img src="img/beauty-bcg-text.png" alt="background text" class="beauty__bcg-text">
+  </section>
+  <!-- /.beauty -->
+
+  <section class="reviews">
+    <div class="container">
+      <h1 class="reviews__title title">Отзывы о нас</h1>
+      <div class="reviews-swiper swiper">
+        <div class="reviews__wrapper swiper-wrapper">
+
+          <div class="reviews__item swiper-slide">
+            <div class="reviews__text description">Я вынуждена использовать в работе вспомогательные компоненты,
+              воздействовать
+              на организм изнутри. Мне важен результат, а результат зависит от используемых мною средств - поэтому я
+              выбираю 4FOOD company</div>
+            <div class="reviews__line"></div>
+            <div class="reviews__person-info">
+              <div class="reviews__person-name">Амира Х.</div>
+              <div class="reviews__person-status">Врач-подолог</div>
+              <div class="reviews__person-photo"><img src="img/reviews-doctor.png" alt="photo of the doctor"></div>
+            </div>
+          </div>
+
+          <div class="reviews__item swiper-slide">
+            <div class="reviews__text description">Я очень люблю бег и спорт, но не всегда на всё хватает сил, поэтому я
+              использую БАДы, чтобы держать себя в форме. Продукция 4FOOD company меня полностью устраивает.</div>
+            <div class="reviews__line"></div>
+            <div class="reviews__person-info">
+              <div class="reviews__person-name">Мария Х.</div>
+              <div class="reviews__person-status">Спортсменка</div>
+              <div class="reviews__person-photo"><img src="img/reviews-sportswoman.png" alt="photo of the sportswoman">
+              </div>
+            </div>
+          </div>
+
+          <div class="reviews__item swiper-slide">
+            <div class="reviews__text description">Я всегда стремился вести здоровый образ жизни, но было сложно
+              отказаться от вредных привычек и привить себе правильное питание. БАДы 4FOOD company помогли мне пройти
+              тяжелый период адаптации к новой жизни. Я всем доволен!</div>
+            <div class="reviews__line"></div>
+            <div class="reviews__person-info">
+              <div class="reviews__person-name">Максим Д.</div>
+              <div class="reviews__person-status">Клиент</div>
+              <div class="reviews__person-photo"><img src="img/reviews-client.png" alt="photo of the client 1"></div>
+            </div>
+          </div>
+
+          <div class="reviews__item swiper-slide">
+            <div class="reviews__text description"> Я всегда стремился вести здоровый образ жизни, с продуктами от 4FOOD
+              company я наконец-то могу это делать</div>
+            <div class="reviews__line"></div>
+            <div class="reviews__person-info">
+              <div class="reviews__person-name">Дмитрий Х.</div>
+              <div class="reviews__person-status">Клиент</div>
+              <div class="reviews__person-photo"><img src="img/reviews-client-2.jpg" alt="photo of the client 2"></div>
+            </div>
+          </div>
+
+          <div class="reviews__item swiper-slide">
+            <div class="reviews__text description">Я стремлюсь вести здоровый образ жизни и в этом мне очнь помогает
+              4FOOD
+            </div>
+            <div class="reviews__line"></div>
+            <div class="reviews__person-info">
+              <div class="reviews__person-name">Виктория Х.</div>
+              <div class="reviews__person-status">Клиент</div>
+              <div class="reviews__person-photo"><img src="img/reviews-client-3.jpg" alt="photo of the client 3"></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="reviews-pagination swiper-pagination"></div>
+      </div>
+    </div>
+    <button class="reviews__arrow reviews__arrow_prev"></button>
+    <button class="reviews__arrow reviews__arrow_next"></button>
+  </section>
+  <!-- /.reviews -->
+
+  <section class="subscription">
+    <div class="subscription__parallax"></div>
+
+    <div class="subscription__wrapper">
+      <h2 class="subscription__subtitle subtitle">Подпишись на наши</h2>
+      <h1 class="subscription__title main-title">новые поступления</h1>
+      <form class="subscription__form sub-form" action="#">
+        <input class="sub-form__input" placeholder="Введите адрес электронной почты" type="text" aria-required="true">
+        <button class="sub-form__button" type="submit">Подписаться</button>
+      </form>
+    </div>
+
+  </section>
+  <!-- /.subscription -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top-wrapper">
+        <a href="#" class="footer__logo-link">
+          <img src="img/footer-logo.png" alt="Logo" class="footer__logo">
+        </a>
+        <ul class="footer__menu menu">
+          <li class="menu__item">Главная</li>
+          <li class="menu__item">Товары</li>
+          <li class="menu__item">Q&A</li>
+          <li class="menu__item">Статьи</li>
+          <li class="menu__item">О нас</li>
+          <li class="menu__item">Оплата и доставка</li>
+          <li class="menu__item">Контакты</li>
+        </ul>
+      </div>
+
+      <div class="footer__middle-wrapper">
+        <ul class="footer__contact-block">
+          <li class="footer__item">
+            <img class="footer__icon" src="img/mail-icon.svg" alt="footer mail icon">
+            <a href="mailto:info@4ood.ru" class="footer__link">info@4ood.ru</a>
+          </li>
+          <li class="footer__item">
+            <img class="footer__icon" src="img/phone-icon.svg" alt="footer phone icon">
+            <a href="tel:+79261716766" class="footer__link">+7 926 171 67 66</a>
+          </li>
+          <li class="footer__item">
+            <img class="footer__icon" src="img/map-icon.svg" alt="footer map icon">
+            <span class="footer__adress">Алтуфьевское ш., 27а, Москва, Россия, 129090</span>
+          </li>
+        </ul>
+        <div class="media-block media-block_margin">
+          <a href="https://www.facebook.com">
+            <img src="img/facebook-icon.svg" alt="facebook-icon" class="media-icon">
+          </a>
+          <a href="https://www.instagram.com">
+            <img src="img/instagram-icon.svg" alt="instagram-icon" class="media-icon">
+          </a>
+          <a href="https://twitter.com">
+            <img src="img/twitter-icon.svg" alt="twitter-icon" class="media-icon">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__bottom-wrapper">
+        <span class="footer__copyright">©2022, All right reserved.</span>
+        <img src="img/card-block.jpg" alt="cards block" class="footer__card-block">
+      </div>
+    </div>
+  </footer>
+  <!-- /.footer -->
+
+  <script src="js/simplebar.min.js"></script>
+  <!-- <script src="js/jquery-3.6.1.min.js"></script> -->
+  <script src="js/simpleParallax.min.js"></script>
+
+  <script src="js/index.js" type="module"></script>
+</body>
+
+</html>

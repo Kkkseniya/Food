@@ -1,0 +1,81 @@
+[{
+    "id": "001",
+    "title": "Detox набор",
+    "subtitle": "Sorbent + Antifungal",
+    "weight": 35,
+    "price": 790,
+    "category": "top",
+    "image": "cart-details-img.jpg"
+  },
+  {
+    "id": "002",
+    "title": "Detox набор treasure",
+    "subtitle": "Sorbent",
+    "weight": 40,
+    "price": 850,
+    "category": "sale",
+    "image": "cart-details-img.jpg"
+  },
+  {
+    "id": "003",
+    "title": "набор Новый мир",
+    "subtitle": "Sorbent",
+    "weight": 35,
+    "price": 790,
+    "category": "new",
+    "image": "cart-details-img.jpg"
+  },
+  {
+    "id": "004",
+    "title": "помощь нервной системе MAX",
+    "subtitle": "Antifungal",
+    "weight": 35,
+    "price": 790,
+    "category": "top",
+    "image": "cart-details-img.jpg"
+  },
+  {
+    "id": "005",
+    "title": "Detox набор",
+    "subtitle": "Sorbent + Antifungal",
+    "weight": 75,
+    "price": 1200,
+    "category": "",
+    "image": "cart-details-img.jpg"
+  },
+  {
+    "id": "006",
+    "title": "витаминный комплекс",
+    "subtitle": "Recovery",
+    "weight": 40,
+    "price": 800,
+    "category": "",
+    "image": "cart-details-img.jpg"
+  },
+  {
+    "id": "007",
+    "title": "Чай для красоты",
+    "subtitle": "Nutrition + Recovery",
+    "weight": 50,
+    "price": 800,
+    "category": "sale",
+    "image": "cart-details-img.jpg"
+  },
+  {
+    "id": "008",
+    "title": "Детокс-план Super",
+    "subtitle": "Cleansing",
+    "weight": 100,
+    "price": 1500,
+    "category": "top",
+    "image": "cart-details-img.jpg"
+  },
+  {
+    "id": "009",
+    "title": "Детокс-план Pro",
+    "subtitle": "Cleansing",
+    "weight": 75,
+    "price": 1000,
+    "category": "",
+    "image": "cart-details-img.jpg"
+  }]

@@ -1,0 +1,124 @@
+.sets-title-wrapper
+  position: relative
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin-bottom: 40px
+.sets
+  padding-top: 56px
+  background-color: $light_gray
+  &__subtitle
+    margin-bottom: 2px
+  &__title
+    margin-bottom: 10px
+  &__filter-list
+    display: flex
+    align-items: center
+    justify-content: space-between
+    max-width: 636px
+    margin-right: 155px
+  &__filter-item
+    font-weight: 600
+    font-size: 18px
+    line-height: 24px
+    letter-spacing: 0.05em
+    text-transform: uppercase
+    color: $dark_gray
+    padding-bottom: 14px
+    cursor: pointer
+    &:not(:last-child)
+      margin-right: 49px
+    &_active
+      font-weight: 700
+      color: $main_black
+      padding-bottom: 9px
+      border-bottom: 5px solid $main_green
+    &:hover
+      color: $main_green
+  &__arrow
+    position: absolute
+    display: block
+    height: 40px
+    width: 40px
+    border-radius: 50%
+    background-image: url("../img/slider-arrow.svg")
+    background-position: center
+    background-size: contain
+    background-repeat: no-repeat
+    z-index: 3
+    top: 18px
+    &_prev
+      transform: rotate(180deg)
+      right: 66px
+    &_next
+      right: 0
+    &:hover
+      background-image: url("../img/slider-arrow-hover.svg")
+  &__image
+    width: 947px
+    height: 600px
+    & > img
+      display: block
+      margin: 0 auto
+      overflow: hidden
+      object-fit: contain
+  &__descrip
+    margin-bottom: 15px
+  &__detail
+    display: block
+    font-weight: 700
+    font-size: 14px
+    line-height: 24px
+    letter-spacing: 0.1em
+    color: $main_black
+    text-transform: uppercase
+    text-align: center
+    padding: 16px 56px
+    border: 2px solid $main_black
+    margin-right: 11px
+    &:hover
+      color: #fff
+      background-color: $main_green
+      border: 2px solid $main_green
+  &__buy
+    display: block
+    font-weight: 700
+    font-size: 14px
+    line-height: 24px
+    letter-spacing: 0.1em
+    text-transform: uppercase
+    text-align: center
+    color: #FFFFFF
+    background-color: $main_green
+    padding: 16px 40px
+    border: 2px solid $main_green
+    &:hover
+      background-color: $dark_gray
+      border: 2px solid $dark_gray
+  &__descrip-wrapper
+    display: flex
+    flex-direction: column
+    max-width: 404px
+  &__item
+    position: relative
+    display: grid
+    align-items: center
+    grid-template-columns: 1fr 1fr
+    column-gap: 32px
+    // border-top: 2px solid $main_black
+    overflow: hidden
+  &__price
+    margin-bottom: 18px
+    align-self: start
+  &__button-wrapper
+    display: flex
+    align-items: center
+    justify-content: start
+  &__bcg-text
+    position: absolute
+    bottom: 52px
+    right: 22px
+  &__line
+    height: 2px
+    width: 100%
+    background-color: $main_black

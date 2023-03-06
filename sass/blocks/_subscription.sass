@@ -1,0 +1,67 @@
+.subscription
+  position: relative
+  min-height: 660px
+  &__parallax
+    position: relative
+    min-height: 660px
+    height: 100%
+    width: 100%
+    background-image: url("../img/subscription-image.jpg")
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    &::after
+      position: absolute
+      content: ''
+      top: 0
+      right: 0
+      left: 0
+      bottom: 0
+      width: 100%
+      height: 100%
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62))
+  &__title
+    margin-top: 13px
+    margin-bottom: 31px
+    color: #fff
+  &__subtitle
+    color: #fff
+  &__wrapper
+    position: absolute
+    top: 50%
+    left: 50%
+    display: flex
+    flex-direction: column
+    align-items: center
+    min-width: 920px
+    transform: translate(-50%, -50%)
+.sub-form
+  max-width: 556px
+  height: 50px
+  display: flex
+  &__input
+    width: 334px
+    height: 100%
+    padding: 13px 36px
+    border: 1px solid #F4F1F1
+    font-weight: 500
+    font-size: 14px
+    line-height: 24px
+    color: $dark_gray
+  &__button
+    width: 222px
+    height: 100%
+    padding-top: 13px
+    padding-bottom: 13px
+    font-weight: 700
+    font-size: 14px
+    line-height: 24px
+    letter-spacing: 0.1em
+    text-transform: uppercase
+    color: #fff
+    background: transparent
+    border: 2px solid #FFFFFF
+    &:hover
+      color: #fff
+      background-color: $main_green
+      border: 2px solid $main_green

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food by BCG</title>
+  <link rel="icon" href="img/icon-eco-food.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/simplebar.css">
+
+  <!-- <script src="js/index.js" type="module"></script> -->
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="header__top">
+      <div class="container top-container">
+        <div class="media-block">
+          <a href="https://www.facebook.com">
+            <img src="img/facebook-icon.svg" alt="facebook-icon" class="media-icon">
+          </a>
+          <a href="https://www.instagram.com">
+            <img src="img/instagram-icon.svg" alt="instagram-icon" class="media-icon">
+          </a>
+          <a href="https://twitter.com">
+            <img src="img/twitter-icon.svg" alt="twitter-icon" class="media-icon">
+          </a>
+        </div>
+
+        <div class="lang-block">
+          <span class="ru-lang">Ru</span>
+          <span class="en-lang">EN</span>
+        </div>
+      </div>
+    </div>
+    <!-- /.header__top -->
+
+    <div class="container header__bottom">
+      <a href="./index.html" class="header__logo-link">
+        <img src="img/logo.png" alt="Logo" class="header__logo">
+      </a>
+
+      <ul class="header__menu menu">
+        <li class="menu__item">Главная</li>
+        <li class="menu__item">Товары</li>
+        <li class="menu__item">Q&A</li>
+        <li class="menu__item">Статьи</li>
+        <li class="menu__item">О нас</li>
+        <li class="menu__item">Оплата и доставка</li>
+        <li class="menu__item">Контакты</li>
+      </ul>
+
+      <a href="tel:+79261716766" class="header__number">+7 926 171 67 66</a>
+
+      <div class="header__icon-block">
+        <div class="notification-block">
+          <span class="notification">5</span>
+          <svg class="heart-icon" width="24" height="24">
+            <use xlink:href="img/icons.svg#heart-icon"></use>
+          </svg>
+        </div>
+
+        <div class="notification-block notif-cart">
+          <span class="notification">8</span>
+          <svg class="cart-icon" width="24" height="24">
+            <use xlink:href="img/icons.svg#cart-icon"></use>
+          </svg>
+
+          <!-- cart-details were here -->
+        </div>
+      </div>
+      <!-- /.header__bottom -->
+    </div>
+    <div class="cart-details">
+      <div class="cart-wrapper">
+        <div class="cart-details__header card-top">
+          <div class="card-top__wrapper">
+            <img src="img/cart-icon-black.svg" alt="Cart icon black">
+            <h1 class="card-top__title">Корзина</h1>
+          </div>
+          <img src="img/close.svg" alt="Close button" class="card-top__close">
+        </div>
+        <!-- /.card-top -->
+        <div class="cart-details__line"></div>
+      </div>
+
+      <div class="cart-details__list cart-list">
+
+        <div class="cart-list__item cart-item">
+          <div class="cart-container">
+            <div class="img-text-wrapper">
+              <div class="cart-item__image"><img src="img/cart-details-img.jpg" alt="selected product image">
+              </div>
+              <div class="cart-item__info">
+                <div class="cart-text-wrapper">
+                  <h2 class="cart-item__title">Detox набор</h2>
+                  <h3 class="cart-item__text">Sorbent + Antifungal</h3>
+                </div>
+                <div class="cart-item__counter">
+                  <button class="counter-button counter-minus"><img src="img/minus.svg" alt="minus"></button>
+                  <span class="counter">1</span>
+                  <button class="counter-button counter-plus"><img src="img/plus.svg" alt="plus"></button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item__block">
+              <img src="img/wastebasket.svg" alt="wastebasket icon" class="delete-btn">
+              <span class="cart-item__price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-list__item cart-item">
+          <div class="cart-container">
+            <div class="img-text-wrapper">
+              <div class="cart-item__image"><img src="img/cart-details-img.jpg" alt="selected product image">
+              </div>
+              <div class="cart-item__info">
+                <div class="cart-text-wrapper">
+                  <h2 class="cart-item__title">Вечерний чай Aksam detox</h2>
+                  <h3 class="cart-item__text">Сбор на основе сенны, с мягким слабительным действием,
+                    направленным
+                    на
+                    предотвращение вздутия и запоров.</h3>
+                </div>
+                <div class="cart-item__counter">
+                  <button class="counter-button counter-minus"><img src="img/minus.svg" alt="minus"></button>
+                  <span class="counter">1</span>
+                  <button class="counter-button counter-plus"><img src="img/plus.svg" alt="plus"></button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item__block">
+              <img src="img/wastebasket.svg" alt="wastebasket icon" class="delete-btn">
+              <span class="cart-item__price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-list__item cart-item">
+          <div class="cart-container">
+            <div class="img-text-wrapper">
+              <div class="cart-item__image"><img src="img/cart-details-img.jpg" alt="selected product image">
+              </div>
+              <div class="cart-item__info">
+                <div class="cart-text-wrapper">
+                  <h2 class="cart-item__title">Detox набор</h2>
+                  <h3 class="cart-item__text">Sorbent + Antifungal</h3>
+                </div>
+                <div class="cart-item__counter">
+                  <button class="counter-button counter-minus"><img src="img/minus.svg" alt="minus"></button>
+                  <span class="counter">1</span>
+                  <button class="counter-button counter-plus"><img src="img/plus.svg" alt="plus"></button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item__block">
+              <img src="img/wastebasket.svg" alt="wastebasket icon" class="delete-btn">
+              <span class="cart-item__price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-list__item cart-item">
+          <div class="cart-container">
+            <div class="img-text-wrapper">
+              <div class="cart-item__image"><img src="img/cart-details-img.jpg" alt="selected product image">
+              </div>
+              <div class="cart-item__info">
+                <div class="cart-text-wrapper">
+                  <h2 class="cart-item__title">Detox набор</h2>
+                  <h3 class="cart-item__text">Sorbent + Antifungal</h3>
+                </div>
+                <div class="cart-item__counter">
+                  <button class="counter-button counter-minus"><img src="img/minus.svg" alt="minus"></button>
+                  <span class="counter">1</span>
+                  <button class="counter-button counter-plus"><img src="img/plus.svg" alt="plus"></button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item__block">
+              <img src="img/wastebasket.svg" alt="wastebasket icon" class="delete-btn">
+              <span class="cart-item__price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-list__item cart-item">
+          <div class="cart-container">
+            <div class="img-text-wrapper">
+              <div class="cart-item__image"><img src="img/cart-details-img.jpg" alt="selected product image">
+              </div>
+              <div class="cart-item__info">
+                <div class="cart-text-wrapper">
+                  <h2 class="cart-item__title">Detox набор</h2>
+                  <h3 class="cart-item__text">Sorbent + Antifungal</h3>
+                </div>
+                <div class="cart-item__counter">
+                  <button class="counter-button counter-minus"><img src="img/minus.svg" alt="minus"></button>
+                  <span class="counter">1</span>
+                  <button class="counter-button counter-plus"><img src="img/plus.svg" alt="plus"></button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item__block">
+              <img src="img/wastebasket.svg" alt="wastebasket icon" class="delete-btn">
+              <span class="cart-item__price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.card-details__list -->
+
+      <div class="cart-wrapper cart-bottom">
+        <div class="cart-bottom__wrapper">
+          <span class="cart-bottom__sum">Сумма</span>
+          <span class="cart-bottom__sum-count">1580₽</span>
+        </div>
+        <button class="cart-bottom__btn order-btn">Оформить заказ</button>
+        <button class="cart-bottom__btn cart-btn">Корзина</button>
+        <div class="cart-bottom__note-wrapper">
+          <img src="img/box-icon.svg" alt="box icon">
+          <p class="cart-note">Добавьте товаров еще на <b>420₽</b> и Вам станет доступна <b>бесплатная
+              доставка</b></p>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <section class="all-prod">
+    <div class="container">
+      <div class="all-prod__breadcrumbs">Главная / Все товары</div>
+      <h1 class="all-prod__title title">Все товары</h1>
+
+      <div class="all-prod__title-wrapper">
+        <ul class="all-prod__filter-list">
+          <li class="filter-item" data-field="top">Популярные товары</li>
+          <li class="filter-item" data-field="sale">Акции</li>
+          <li class="filter-item" data-field="new">Новинки</li>
+          <li class="filter-item" data-field="viewd">Просмотренное</li>
+        </ul>
+
+        <div class="all-prod__sort">
+          <span class="all-prod__type">Сортировка</span>
+          <div name="all-prod-select" class="all-prod__selection">
+            <div id="price-asc">Цена: по возрастанию</div>
+            <div id="price-desc">Цена: по убыванию</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products__card-block">
+
+        <!-- <div class="card" data-price="790">
+          <a href="#" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <span class="weight">35 грамм</span>
+          <div class="card-main-wrapper">
+            <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+            <div class="card-descrip-wrapper">
+              <span class="card__descrip">Sorbent + Antifungal</span>
+              <svg class="product-arrow" width="21" height="16">
+                <use xlink:href="img/icons.svg#product-arrow"></use>
+              </svg>
+              <span class="card__price price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-price="800">
+          <a href="#" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <span class="weight">35 грамм</span>
+          <div class="card-main-wrapper">
+            <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+            <div class="card-descrip-wrapper">
+              <span class="card__descrip">Sorbent + Antifungal</span>
+              <svg class="product-arrow" width="21" height="16">
+                <use xlink:href="img/icons.svg#product-arrow"></use>
+              </svg>
+              <span class="card__price price">800₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-price="790">
+          <a href="#" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <span class="weight">35 грамм</span>
+          <div class="card-main-wrapper">
+            <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+            <div class="card-descrip-wrapper">
+              <span class="card__descrip">Sorbent + Antifungal</span>
+              <svg class="product-arrow" width="21" height="16">
+                <use xlink:href="img/icons.svg#product-arrow"></use>
+              </svg>
+              <span class="card__price price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-price="790">
+          <a href="#" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <span class="weight">35 грамм</span>
+          <div class="card-main-wrapper">
+            <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+            <div class="card-descrip-wrapper">
+              <span class="card__descrip">Sorbent + Antifungal</span>
+              <svg class="product-arrow" width="21" height="16">
+                <use xlink:href="img/icons.svg#product-arrow"></use>
+              </svg>
+              <span class="card__price price">790₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-price="1200">
+          <a href="#" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <span class="weight">35 грамм</span>
+          <div class="card-main-wrapper">
+            <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+            <div class="card-descrip-wrapper">
+              <span class="card__descrip">Sorbent + Antifungal</span>
+              <svg class="product-arrow" width="21" height="16">
+                <use xlink:href="img/icons.svg#product-arrow"></use>
+              </svg>
+              <span class="card__price price">1200₽</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-price="800">
+          <a href="#" class="card__link"></a>
+          <div class="card-title-wrapper">
+            <div class="card__title">Detox набор</div>
+            <div class="card__label">TOP</div>
+          </div>
+          <span class="weight">35 грамм</span>
+          <div class="card-main-wrapper">
+            <div class="card__image"><img src="img/cart-details-img.jpg" alt="card image"></div>
+            <div class="card-descrip-wrapper">
+              <span class="card__descrip">Sorbent + Antifungal</span>
+              <svg class="product-arrow" width="21" height="16">
+                <use xlink:href="img/icons.svg#product-arrow"></use>
+              </svg>
+              <span class="card__price price">800₽</span>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <!-- /.products__card-block -->
+
+      <div class="link-wrapper">
+        <div class="products__line"></div>
+        <a href="#" class="products__all">Еще</a>
+        <div class="products__line"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/simplebar.min.js"></script>
+  <!-- <script src="js/jquery-3.6.1.min.js"></script> -->
+  <script src="js/simpleParallax.min.js"></script>
+
+  <script src="js/index.js" type="module"></script>
+  <script src="js/getProducts.js"></script>
+</body>
+
+</html>

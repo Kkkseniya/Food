@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,AAAC,CACV,MAAM,CAAE,KAAK,CACb,KAAK,CAAE,IAAI,CACX,gBAAgB,CAAE,yBAAyB,CAC3C,iBAAiB,CAAE,SAAS,CAAG",
+    "sources": [
+        "../sass/blocks/top-banner.sass"
+    ],
+    "names": [],
+    "file": "top-banner.css"
+}

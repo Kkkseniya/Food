@@ -1,0 +1,210 @@
+//экран 1920px
+@media (max-width: 1920px)
+  .container
+    max-width: 1594px
+@media (max-width: 1830px)
+  .reviews-swiper
+    max-width: 1500px
+  .reviews__arrow
+    &_prev
+      left: 1%
+    &_next
+      right: 1%
+//адаптив для экранов: пока сделано для 1200 и выше; дальше надо - 1024 (вроде самый маленький для ноутбука), 992, 768, 576, 480 
+@media (max-width: 1600px)
+  .container
+    max-width: 90%
+  .header
+    &__menu
+      justify-content: end
+      max-width: 760px
+      margin: 0
+      & li:not(:last-child)
+        margin-right: 25px
+    &__icon-block
+      margin: 0
+  .top-banner
+    &__container
+      padding: 24px 50px 36px 102px
+  .benefits
+    &__info
+      padding: 40px 40px
+      column-gap: 40px
+  .beauty
+    &__content
+      padding-left: 90px
+    &__content-wrapper
+      padding-left: 18px
+      padding-right: 149px
+  .card
+    width: 430px
+    &__image
+      width: 220px
+      height: 205px
+    &__descrip
+      padding-bottom: 10px
+  .card-descrip-wrapper
+    padding-top: 70px
+  .card-main-wrapper
+    column-gap: 10px
+  .products
+    &__card-block
+      grid-template-columns: repeat(auto-fill, minmax(430px, 1fr))
+  .sport
+    max-height: 620px
+    &__image
+      max-width: 636px
+    &__bcg-text
+      width: 654px
+      bottom: 203px
+@media (max-width: 1440px)
+  .container
+    max-width: 92%
+  .header
+    &__logo
+      width: 100px
+      height: auto
+    &__number
+      font-size: 14px
+    &__icon-block
+      max-width: 70px
+    &__menu
+      margin-right: 10px
+  .notification
+    top: -7px
+    right: -10px
+  .heart-icon, .cart-icon
+    height: 20px
+    width: 20px
+  .media-block
+    margin-right: 44px
+    &_margin
+      margin-right: 0
+      margin-left: 74px
+  .title
+    font-size: 24px
+    line-height: 30px
+  .main-title
+    font-size: 56px
+  .subtitle
+    letter-spacing: 0.52em
+  .footer
+    &__logo
+      width: 100px
+      height: auto
+  .top-banner
+    height: 510px
+    &__container
+      padding-top: 48px
+      padding-left: 137px
+    &__image
+      width: 500px
+      height: 404px
+    &__info
+      padding-top: 10px
+  .filter-item
+    font-size: 12px
+  .products
+    &__card-block
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr))
+    &__all
+      font-size: 14px
+      padding: 15px 10px
+  .card
+    width: 340px
+    height: auto
+    &__image
+      width: 170px
+      height: 158px
+  .card-main-wrapper
+    grid-template-columns: 180px 1fr
+  .card-descrip-wrapper
+    padding-top: 46px
+  .link-wrapper
+    grid-template-columns: 1fr 18% 1fr
+  .sets
+    &__slider
+      height: 450px
+    &__image
+      width: 400px
+      height: auto
+      justify-self: center
+    &__filter-item
+      font-size: 16px
+      &:not(:last-child)
+        margin-right: 44px
+    &__bcg-text
+      font-size: 200px
+      bottom: 28px
+      right: -24px
+    &__arrow
+      top: -8px
+    &__descrip-wrapper
+      max-width: 536px
+    &__slider > .swiper-wrapper
+      align-items: center
+  .sets-title-wrapper
+    margin-bottom: 30px
+  .benefits
+    padding-top: 50px
+    padding-bottom: 60px
+    &__info
+      margin-left: 20px
+      padding: 20px 20px
+      column-gap: 30px
+      row-gap: 30px
+    &__anim
+      width: 70px
+      height: 70px
+  .sport
+    max-height: 500px
+    &__image
+      max-width: 540px
+      height: auto
+    &__description
+      margin-bottom: 30px
+      max-width: 556px
+    &__bcg-text
+      width: 512px
+      bottom: 163px
+  .beauty
+    &__image
+      width: 740px
+      height: 485px
+    &__bcg-text
+      max-width: 753px
+    &__bottle-image
+      width: 96px
+      right: -98px
+    &__content
+      padding: 60px 47px 60px 60px
+  .reviews
+    &__title
+      margin-bottom: 56px
+    &__text
+      font-size: 14px
+      line-height: 22px
+      height: 144px
+    &__wrapper
+      margin-bottom: 20px
+    &__item
+      padding: 50px 20px 40px 20px
+      height: auto
+    &__line
+      margin-bottom: 28px
+    &__arrow
+      top: 52%
+  .reviews-pagination .swiper-pagination-bullet
+    width: 9px
+    height: 9px
+    &:not(:last-child)
+      margin-right: 10px
+  .subscription
+    min-height: 560px
+    &__parallax
+      min-height: 560px
+  .footer
+    &__menu
+      width: 848px
+    &__contact-block
+      width: 614px

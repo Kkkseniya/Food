@@ -1,0 +1,91 @@
+.reviews
+  position: relative
+  padding: 97px 0 109px
+  &__title
+    margin-bottom: 36px
+  &__item
+    position: relative
+    padding: 50px 34px 42px 24px
+    // max-width: 488px
+    height: 440px
+    &::before
+      position: absolute
+      content: ''
+      height: 26px
+      width: 30px
+      left: 24px
+      top: 8px
+      background-image: url(../img/quote.svg)
+      background-repeat: no-repeat
+  &__text
+    display: flex
+    align-items: center
+    height: 170px
+    overflow-y: auto
+    color: #1A1A1A
+    margin-bottom: 18px
+    &::-webkit-scrollbar-track
+      border-radius: 4px
+    &::-webkit-scrollbar
+      width: 6px
+    &::-webkit-scrollbar-thumb
+      border-radius: 4px
+    &:hover::-webkit-scrollbar-thumb
+      background: $mid_gray
+  &__line
+    height: 5px
+    background-color: $main_green
+    margin-bottom: 44px
+  &__person-info
+    text-align: center
+  &__person-name
+    font-weight: 700
+    font-size: 18px
+    line-height: 24px
+    text-transform: uppercase
+    color: #1A1A1A
+  &__person-status
+    font-weight: 600
+    font-size: 14px
+    line-height: 24px
+    color: #C4C4C4
+    margin-bottom: 4px
+  &__person-photo
+    width: 68px
+    height: 68px
+    margin: 0 auto
+    & img
+      border-radius: 50%
+      object-fit: cover
+  &__arrow
+    position: absolute
+    display: block
+    height: 40px
+    width: 40px
+    border-radius: 50%
+    background-image: url("../img/slider-arrow.svg")
+    background-position: center
+    background-size: contain
+    background-repeat: no-repeat
+    z-index: 3
+    top: 54%
+    &_prev
+      transform: rotate(180deg)
+      left: 5%
+    &_next
+      right: 5%
+    &:hover
+      background-image: url("../img/slider-arrow-hover.svg")
+  &__wrapper
+    margin-bottom: 48px
+.reviews-swiper
+  max-width: 1594px
+.reviews-pagination .swiper-pagination-bullet
+  height: 11px
+  width: 11px
+  margin-left: 0
+  background-color: #C4C4C4
+  &:not(:last-child)
+    margin-right: 13px
+.reviews-pagination .swiper-pagination-bullet-active
+  background-color: $main_green

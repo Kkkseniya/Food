@@ -1,0 +1,62 @@
+.top-banner
+  // position: relative
+  height: 580px
+  width: 100%
+  background-image: url("../img/leaves.png")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  &__container
+    // max-width: 1215px
+    // margin: 0 auto
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 24px 220px 36px 162px
+    // padding: 24px 0 36px
+  &__info
+    max-width: 404px
+    padding-top: 40px
+  &__image
+    width: 644px
+    height: 520px
+    background-image: url("../img/box.png")
+    background-repeat: no-repeat
+    background-size: cover
+    filter: drop-shadow(-23px 2px 20px rgba(0, 0, 0, 0.12))
+.banner-info
+  &__wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__days
+    font-weight: 600
+    font-size: 20px
+    line-height: 50px
+    color: $main_green
+  &__line
+    height: 2px
+    width: 288px
+    background-color: $main_green
+  &__descrip
+    margin-bottom: 25px
+  &__btn
+    display: block
+    font-weight: 700
+    font-size: 12px
+    line-height: 24px
+    letter-spacing: 0.1em
+    text-transform: uppercase
+    color: $main_black
+    padding: 13px 4px
+    width: 236px
+    border: 2px solid $main_black
+    text-align: center
+    &:hover
+      color: #fff
+      background-color: $main_green
+      border: 2px solid $main_green
+  &__subtitle
+    margin-bottom: 7px
+  &__title
+    margin-bottom: 6px
